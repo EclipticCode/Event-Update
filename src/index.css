@@ -1,0 +1,32 @@
+.row2{
+    width: auto;
+    height: 450px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.drop{
+    width: 100px !important;
+}
+.box{
+    height: 350px;
+    width:auto;
+    border: 1px solid black;
+}
+.img-fluid{
+    font-size: 350px;
+    color: lightgray;
+}
+@media (max-width:767px){
+    .row2{
+        border: none;
+    }
+    .box{
+        height: 250px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:991px){
+    .img-fluid{
+        font-size: 250px;
+    }
+}
